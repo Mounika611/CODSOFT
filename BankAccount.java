@@ -93,7 +93,8 @@ class ATM {
 
 public class Main {
     public static void main(String[] args) {
-        // Create bank account with initial balance
+
+        
         BankAccount userAccount = new BankAccount(5000);
 
         
@@ -103,3 +104,4 @@ public class Main {
         atm.displayMenu();
     }
 }
+
